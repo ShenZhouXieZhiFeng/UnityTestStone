@@ -6,11 +6,17 @@ public class CameraManager : MonoBehaviour
 {
     public static CameraManager Instance;
 
-    Camera camera;
-    Transform cameraTransform;
+    Camera mCamera;
+    Transform mCameraTransform;
     
-    public ECameraType curCameraType = ECameraType.None;
-    private CameraTypeBase curCameraTypeIns;
+    ECameraType mCameraType = ECameraType.None;
+    public ECameraType CameraType
+    {
+        get { return mCameraType; }
+    }
+
+    private CameraTypeBase mCameraTypeIns;
+    private CameraTypeTransition mCameraTransition;
 
     #region 生命周期
 
@@ -18,41 +24,69 @@ public class CameraManager : MonoBehaviour
     {
         Instance = this;
 
-        cameraTransform = transform.Find("Main Camera");
-        camera = cameraTransform.GetComponent<Camera>();
+        mCameraTransform = transform.Find("Main Camera");
+        mCamera = mCameraTransform.GetComponent<Camera>();
+
+        createTransition();
 
         ChangeCameraType(ECameraType.Wander);
     }
 
+    void createTransition()
+    {
+        mCameraTransition = new CameraTypeTransition();
+        mCameraTransition.Initialize(mCamera, ECameraType.Transition);
+    }
+
     private void Update()
     {
-        if (curCameraTypeIns != null)
+        if (mCameraTransition.InTransition)
         {
-            curCameraTypeIns.CallUpdate();
+            mCameraTransition.CallUpdate();
+            return;
+        }
+        if (mCameraTypeIns != null)
+        {
+            mCameraTypeIns.CallUpdate();
         }
     }
 
     private void LateUpdate()
     {
-        if (curCameraTypeIns != null)
+        if (mCameraTransition.InTransition)
         {
-            curCameraTypeIns.CallLaterUpdate();
+            mCameraTransition.CallLaterUpdate();
+            return;
+        }
+        if (mCameraTypeIns != null)
+        {
+            mCameraTypeIns.CallLaterUpdate();
         }
     }
 
     private void FixedUpdate()
     {
-        if (curCameraTypeIns != null)
+        if (mCameraTransition.InTransition)
         {
-            curCameraTypeIns.CallFixedUpdate();
+            mCameraTransition.CallFixedUpdate();
+            return;
+        }
+        if (mCameraTypeIns != null)
+        {
+            mCameraTypeIns.CallFixedUpdate();
         }
     }
 
     private void OnGUI()
     {
-        if (curCameraTypeIns != null)
+        if (mCameraTransition.InTransition)
         {
-            curCameraTypeIns.CallGUI();
+            mCameraTransition.CallGUI();
+            return;
+        }
+        if (mCameraTypeIns != null)
+        {
+            mCameraTypeIns.CallGUI();
         }
     }
 
@@ -60,13 +94,15 @@ public class CameraManager : MonoBehaviour
 
     public void ChangeCameraType(ECameraType newType, CameraAgent agent = null)
     {
-        if (curCameraType == newType)
+        if (mCameraType == newType)
         {
             return;
         }
-        var oldCameraIns = curCameraTypeIns;
+        Debug.Log("ChangeCameraType: " + newType);
+
+        var oldCameraIns = mCameraTypeIns;
         CameraTypeBase newCameraIns = null;
-        curCameraType = newType;
+        mCameraType = newType;
         switch (newType)
         {
             case ECameraType.Fixed:
@@ -88,11 +124,11 @@ public class CameraManager : MonoBehaviour
         }
         if (newCameraIns != null)
         {
-            newCameraIns.Initialize(camera, newType);
+            newCameraIns.Initialize(mCamera, newType);
             newCameraIns.AttachAgent(agent);
             newCameraIns.EnterType();
         }
-        curCameraTypeIns = newCameraIns;
+        mCameraTypeIns = newCameraIns;
     }
 
     #region debug

@@ -4,7 +4,11 @@ using UnityEngine;
 
 public enum ECameraType
 { 
-    None = 0,
+    None = -1,
+    /// <summary>
+    /// 过渡用
+    /// </summary>
+    Transition = 0,
     /// <summary>
     /// 固定式相机
     /// </summary>

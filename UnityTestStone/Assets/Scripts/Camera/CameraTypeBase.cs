@@ -19,6 +19,7 @@ public class CameraTypeBase
         mCameraType = cameraType;
         mCamera = camera;
         mCameraTransform = camera.transform;
+        onCreate();
     }
 
     public void AttachAgent(CameraAgent agent)
@@ -76,6 +77,11 @@ public class CameraTypeBase
     #endregion
 
     #region 子类重写生命周期
+
+    protected virtual void onCreate()
+    { 
+    
+    }
 
     protected virtual void onEnter()
     {

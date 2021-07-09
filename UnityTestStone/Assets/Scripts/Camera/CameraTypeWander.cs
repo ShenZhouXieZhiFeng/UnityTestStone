@@ -14,7 +14,7 @@ public class CameraTypeWander : CameraTypeBase
     float minPitch = -80;
 
     Vector3 moveVector = Vector3.zero;
-    float moveSpeed = 1;
+    float moveSpeed = 0.1f;
 
     protected override void onEnter()
     {
@@ -72,10 +72,6 @@ public class CameraTypeWander : CameraTypeBase
 
         // 应用旋转
         mCameraTransform.localEulerAngles = new Vector3(curPitch, curYaw, 0);
-
-        //Quaternion rot = Quaternion.AngleAxis(curPitch, Vector3.right);
-        //Quaternion rot2 = Quaternion.AngleAxis(curYaw, Vector3.up);
-        //cameraTransform.localRotation = rot2 * rot;
     }
 
     string guiLabel = "~键进入操控模式；WSAD上下左右；QE上升下降；";
