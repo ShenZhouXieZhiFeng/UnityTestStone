@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: gameassets-character-animator-animationclips-sniper.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: gameassets-character-animator-animationclips-sniper.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4c0d3caf41227994ead424c0daea3c8c
+  m_SerializeEntries:
+  - m_GUID: 1257c16d44e2a394886818f69c63177c
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Dead.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1b79a2f1bd4affb42b75f1f66b6e94b6
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_LieDown_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 255a3b6a04840704db49fed20c587b51
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_98K_Reload_Normal.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 35d88bc6c5bf4bc43a63df3aa97dad4a
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Move_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 451c617d51ea2cd448d662ba9f055c27
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Move_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 49e00df21a2db724599d8da4748c42de
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Squat_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 621b6ca9ada8c9a4cac938111937ee4b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_LieDown_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6e2c6f990cb08494b8ed1afc438cd14f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Hurt.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 760c24f661712f84b8f9fc936ac4518b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Move_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 781e29b8a74e6cf40ab12dae4c7ed33f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Move_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9368ebc819760b7438397f2535cf58fa
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_LieDown_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 974587691cca1b8428947e61fb745cd2
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Jump.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 99e382b0f9b69014dba75bc1490d5b9f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9ae6dda0ff531a049b777ab246a40b2b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Attack.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b6ce74090e8e4f14b9de8fe5149c20fe
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Move_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bdf9e24e7e303ae48b320f5350a8f4e7
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Squat_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c23ab088f222b854ea0e57c9304d29a8
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Squat_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c5f71c5fdd3478b43a227fd19414bf1c
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_98K_Reload_Single.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cb254e72566d4dc4f9d69632421a4573
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Squat_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cf4c8232a8b269745ab4e24ca776d7e9
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Reload_Quick.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d3303c518236add42acdac418e36fa5e
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Pickup.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d693c744c13285b44bba421b1fb9d584
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Squat_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: db6b41eb0e846474e8fe1459c0f7cf26
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Squat_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: dff745278cbe4924a849d7c37aa6137c
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_Reload_Normal.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e7b4e03102bd26643b79a91bca8f5727
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_LieDown_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ef2673e8d75c0a44789b1e8d803b53da
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_LieDown_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ef474b1e346c4124c8a188a275a271da
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Sniper/Male@Sniper_ManualReload.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dc35b4a5317dbf64ba03cecdb9cfcdc6, type: 2}
+    - {fileID: 11400000, guid: 2651e42f3bd76e0438d1c275bdec7073, type: 2}

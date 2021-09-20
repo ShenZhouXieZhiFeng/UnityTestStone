@@ -2,26 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, AbilityOwnerInterface, CompoentOwnerInterface
 {
-    [SerializeField]
-    float moveSpeed = 0.1f;
-    [SerializeField]
-    float jumpSpeed = 5f;
-
-    CharacterController mCharacterController;
-    TPSCameraAgent mCameraAgent;
-
-    Vector3 moveVector = Vector3.zero;
-
     MeshRenderer[] renders;
+    Animator mAnimator;
+    CharacterController mCharacterController;
+
+    TPSCameraAgent mCameraAgent;
 
     private void Awake()
     {
-        mCharacterController = GetComponent<CharacterController>();
+        mAnimator = transform.Find("avatar").GetComponent<Animator>();
+        mCharacterController = transform.GetComponent<CharacterController>();
         mCameraAgent = GetComponent<TPSCameraAgent>();
-
         renders = GetComponentsInChildren<MeshRenderer>();
+        // 初始化组件管理逻辑
+        initComp();
+        // 初始化能力
+        initAbility();
     }
 
     void Start()
@@ -31,72 +29,141 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (CameraManager.Instance.CameraType != ECameraType.TPS)
-        {
-            return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.BackQuote))
-        {
-            Cursor.visible = !Cursor.visible;
-            Cursor.lockState = Cursor.visible ? CursorLockMode.None : CursorLockMode.Confined;
-        }
-
-        if (Cursor.visible)
-        {
-            return;
-        }
-
-        // 移动
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-        moveVector = transform.forward.normalized * vertical;
-        moveVector += transform.right.normalized * horizontal;
-        moveVector *= moveSpeed;
-
-        // 旋转
-        float mouseX = Input.GetAxis("Mouse X");
-        float mouseY = -Input.GetAxis("Mouse Y");
-        mCameraAgent.UpdateRotateInputVector(mouseX, mouseY);
+        testControl();
+        mAbilityMgr.CallUpdate();
+        callCompUpdate();
     }
 
-    string guiLabel = "~键进入操控模式；WSAD前后左右";
-    GUIStyle style = new GUIStyle();
-    void OnGUI()
+
+    private void LateUpdate()
     {
-        if (CameraManager.Instance.CameraType != ECameraType.TPS)
+        mCameraAgent?.ApplyRotation();
+        mAbilityMgr.CallLateUpdate();
+        callCompLateUpdate();
+    }
+
+    private void FixedUpdate()
+    {
+        mAbilityMgr.CallFixedUpdate();
+        callCompFixedUpdate();
+    }
+
+    private void OnDestroy()
+    {
+        mAbilityMgr.CallDestory();
+        callCompDestory();
+    }
+
+    #region 能力
+
+    AbilityManager mAbilityMgr;
+
+    public MovementCompoent MoveComp
+    {
+        get
         {
-            return;
+            return mMovementComp;
         }
-
-        style.fontSize = 30;
-
-        GUI.Label(new Rect(100, 50, 60, 100), guiLabel, style);
     }
 
-    void LateUpdate()
+    public AnimatorCompoent AnimatorComp
     {
-        applyMove();
-        applyRotation();
-    }
-
-    void applyMove()
-    {
-        Vector3 finalMove = moveVector;
-        if (finalMove != Vector3.zero)
+        get
         {
-            mCharacterController.Move(finalMove);
+            return mAnimatorComp;
         }
-        moveVector = Vector3.zero;
     }
 
-    void applyRotation()
+    void initAbility()
     {
-        mCameraAgent.ApplyRotation();
+        mAbilityMgr = new AbilityManager();
+        mAbilityMgr.CallCreate(this);
+        // 初始能力
+        mAbilityMgr.AddAbility(EAbilityType.move);
+        mAbilityMgr.AddAbility(EAbilityType.jump);
+        mAbilityMgr.AddAbility(EAbilityType.superJump);
+        mAbilityMgr.AddAbility(EAbilityType.fall);
+        mAbilityMgr.AddAbility(EAbilityType.useItem);
     }
+
+    #endregion
+
+    #region 客户端组件
+
+    MovementCompoent mMovementComp;
+    AnimatorCompoent mAnimatorComp;
+
+    List<CompoentBase> compoentList = new List<CompoentBase>();
+
+    public Animator Aniamtor
+    {
+        get
+        {
+            return mAnimator;
+        }
+    }
+
+    public CharacterController CharacterController
+    {
+        get
+        {
+            return mCharacterController;
+        }
+    }
+
+    void initComp()
+    {
+        mMovementComp = AddCompoent<MovementCompoent>();
+        mAnimatorComp = AddCompoent<AnimatorCompoent>();
+    }
+
+    T AddCompoent<T>() where T : CompoentBase, new()
+    {
+        T res = new T();
+        res.CallStart(this);
+        compoentList.Add(res);
+        return res;
+    }
+
+    void callCompUpdate()
+    {
+        foreach (var comp in compoentList)
+        {
+            comp.CallUpdate();
+        }
+    }
+
+    void callCompLateUpdate()
+    {
+        foreach (var comp in compoentList)
+        {
+            comp.CallLateUpdate();
+        }
+    }
+
+    void callCompFixedUpdate()
+    {
+        foreach (var comp in compoentList)
+        {
+            comp.CallFixedUpdate();
+        }
+    }
+
+    void callCompDestory()
+    {
+        foreach (var comp in compoentList)
+        {
+            comp.CallDestory();
+        }
+    }
+
+    #endregion
+
+    #region  render todo 抽离出render组件
 
     float alphaCache = 1;
     MaterialPropertyBlock block = null;
+
     public void UpdateRender(float alpha)
     {
         if (alphaCache == alpha)
@@ -146,4 +213,72 @@ public class Player : MonoBehaviour
             callback(render);
         }
     }
+
+    #endregion
+
+    #region test
+
+    string guiLabel = "~键进入操控模式；WSAD前后左右";
+    GUIStyle style = new GUIStyle();
+    void OnGUI()
+    {
+        if (CameraManager.Instance.CameraType != ECameraType.TPS)
+        {
+            return;
+        }
+        style.fontSize = 30;
+
+        GUI.Label(new Rect(100, 50, 60, 100), guiLabel, style);
+    }
+
+    void testControl()
+    {
+        if (CameraManager.Instance.CameraType != ECameraType.TPS)
+        {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.BackQuote))
+        {
+            Cursor.visible = !Cursor.visible;
+            Cursor.lockState = Cursor.visible ? CursorLockMode.None : CursorLockMode.Confined;
+        }
+
+        if (Cursor.visible)
+        {
+            return;
+        }
+
+        // 移动
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+        if (horizontal != 0 || vertical != 0)
+        {
+            EventCenter.Instance.fire(AbilityEvent.ABEvent_Move, new Vector3(horizontal, 0, vertical));
+        }
+
+        // 旋转
+        float mouseX = Input.GetAxis("Mouse X");
+        float mouseY = -Input.GetAxis("Mouse Y");
+        mCameraAgent?.UpdateRotateInputVector(mouseX, mouseY);
+
+        // 跳跃
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            EventCenter.Instance.fire(AbilityEvent.ABEvent_Jump);
+        }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            EventCenter.Instance.fire(AbilityEvent.ABEvent_UseItem, 1001);
+        }
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            EventCenter.Instance.fire(AbilityEvent.ABEvent_UseItem, 1001);
+        }
+    }
+
+    #endregion
+
 }

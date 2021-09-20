@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: gameassets-character-avatar-materials.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: gameassets-character-avatar-materials.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fb8bf847cd87c644588d2589f32eb1b3
+  m_SerializeEntries:
+  - m_GUID: 473fe5ec8d743a443b96e80c492e3584
+    m_Address: Assets/GameAssets/Character/Avatar/Materials/1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: be542b7cc52d32645bbc5a296d1cfd68, type: 2}
+    - {fileID: 11400000, guid: e3086fd9c33ab3645b8cfe9ed1f6a10c, type: 2}

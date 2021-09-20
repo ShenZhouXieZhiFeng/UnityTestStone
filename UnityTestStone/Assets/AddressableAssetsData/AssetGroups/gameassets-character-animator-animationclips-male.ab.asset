@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: gameassets-character-animator-animationclips-male.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: gameassets-character-animator-animationclips-male.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 43a1db2547d5b884f8ae296d3d2b3ba3
+  m_SerializeEntries:
+  - m_GUID: 092e1ead7ac59054cbaa98968e68b269
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@LieDown_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0c8232f4430ee7c4ab3019978a95b986
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Move_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0e6d4af84628df44b8b82a15f1c08f19
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@SuperJump_Fly.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1215e9423d446b449a367cee971880aa
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@ShakeHead_Attack.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 24c3e9200a6d38a43a873f4c36b3dad8
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@LieDown_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 261e9a4e846c0c74182d2ba1b84c1d86
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@ChangeWeapon.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2a99aa3b3f39f7648b66efb2d213f423
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Help.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2c760ecf58ff98e45b76ac144c2d3395
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@LieDown_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2ea43cd0d0a57f9448571be5eabe61d9
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Squat_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 38d141e5a27e3aa4fa10a0bc12818390
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Pickup.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 54381907e5959744fac13ffc01bf3287
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Hello.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6c2407c7711f3df48bd8b4f057a1d50b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Move_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6c25286ae036f334697f151fea8452fa
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/male@bite.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6ea6b98634485ff4285f4c4d1371fac6
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Move_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6f128339d3379a24885730ae893867ca
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Move_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 73475746d25cf934c9943a545715c746
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Head_Attack.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7468fce4090b7b749b458dd5484d3cc7
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Move_Front_SlipUp.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7977f72cad0933f4092b2f2242bbdda3
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Squat_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7a81285b58d508d4bb8122fcc9d710a5
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/male@eatpulling.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8366c19179da3f449a5f107e3e823969
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Jump.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8bc2c236f0d6ea84fafa038e3910bc35
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Move_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9e2d3fd7ef1c4ff46a56bc2ce5e36016
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Swimming_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a7f4c0a5d6d47424c851637f52fcaef0
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Swimming_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a8fbb797a6a56bc4b9f2ebb6b5352eb8
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Squat_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a996adb9e5fa9894696b41c54598300f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Swimming_Float.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ab87db3a8932a5847a82649cc4207a69
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@LieDown_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ac3d5a0589b167f40a18c035a8ab6c0a
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/male@eat.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b0ea7fe6a7604b44cb58a49f5043e7d7
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Hurt.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b5379941444a9bc4a8d8e9bd60adfeaf
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Squat_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b5558f6c9c05d1c4d97f149a3b28bb23
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Squat_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b8ec8b98a851c214ab1877a1cfd558fb
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Move_Back_SlipUp.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: da8be9038ddb070428d47b1dd6bfc7bb
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@SuperJump.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: dac237f8a6b415b4a9f379d475ff54da
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Dead.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e21368a342efbd145a31d11e8340e54b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Squat_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e59ebad09a6b13b439c27c7426882ca7
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Bandage.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e5d97cf9fc3f6cf428e8c9efc6e12ab7
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Balloon_Idle01.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ecd9785f2096dc44a9e563202a4ab8c1
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@SuperJump_Superman.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f50e0e69d542f024f89ec14025e64e27
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f8dfa5e31e45377478b6e7a9c9aaa52a
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/Male@LieDown_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fa0a00529d8dc714dadbde95cff16da9
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Male/male@bitepulling.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 03456eac474bfc248b7ad6c6c832e831, type: 2}
+    - {fileID: 11400000, guid: 6fe16dc3162b40d418b88e905c361f42, type: 2}

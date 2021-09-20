@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: gameassets-character-animator-animationclips-throwables.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: gameassets-character-animator-animationclips-throwables.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 40edc32f3b42ea146a56455b3f5d9908
+  m_SerializeEntries:
+  - m_GUID: 06fec028cc779e1479153a67473bdf0c
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_LieDown_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1dfc4020927295647a2a01ad7d4a1cc3
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Pickup.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 269326d770967074e803a85d64d69b6c
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_LieDown_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 294ceaf1b281ec247bd841cac713103d
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Squat_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2996c6003920ea1489d44af57f0b82a9
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Squat_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3c8d9811cbf92004f8ae85aa72c6097e
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_LieDown_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3f50330b0985ea7448610a5b7a76bc17
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Squat_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 494c4246a48390b41a18a2922650910f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Move_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 55aeca7e1c9ab1347bc777d22b56dc1d
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Jump.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5880ab20e0d3df644a23a82a9698f9b5
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Move_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5ee37cbf987c5ac47b2b278cca85e0d7
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Fuse.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7b556d38e6d629c43b0ab93e5c3512a6
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_LieDown_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 803ff3020abd2824a93d3ffffd10455d
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Throw.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 80833c159f28be8448db3b023e4ef51f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Hurt.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a6c75c949f04ac34790e31e7b9352a3e
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Move_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b00ade414218d5e4184e987d8e150c95
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Squat_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bf8615a4a0bfb6f498a12f07eb05f2a4
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Move_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c9cdc467b7dd9e6419031735c6583607
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Squat_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: dbd9a4d4f81b21640bc08124fe00fd80
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Move_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: df0521183e758734c8cc671ef2b2ccb4
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Squat_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e05ada4035f838740aa0a4c99a8a766b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_LieDown_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e5cd522d652b177408ab46c7f6a176b9
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f3ffc5f552daa5644832c0b87f8dd994
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Throwables/Male@Throwables_Dead.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a6ad95aba486c7246973c06d34ed7c88, type: 2}
+    - {fileID: 11400000, guid: b20db956c2890a04291783138f742a49, type: 2}

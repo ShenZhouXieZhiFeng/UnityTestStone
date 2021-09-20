@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: gameassets-character-animator-animationclips-melee.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: gameassets-character-animator-animationclips-melee.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1cd39a70b7adf8f44a2c09852089b91e
+  m_SerializeEntries:
+  - m_GUID: 01089da7d76d7b9468caf625650daf62
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Move_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0164c11bf39fafc44b44c507c17bf188
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Squat_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 017102ff67d34734b99458ad1434553c
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Attack03.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 07aea590a3e49a54884d545dfea669ed
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Move_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 09fee1b924374eb40b84b53fea1031c7
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Move_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0d032d26b2faba545925f24fdd77b313
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Squat_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 197081fc43baa034789af4977e60762a
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Attack03_01.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1da1e0f6e14175d46a732f259517c3a2
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Squat_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 247f27d081979a849b295a1c64ac2a24
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Hurt.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 29b2308c5b6682e4c924bebde83c4c4c
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_LieDown_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2b464ca1cc5fe1e4a872a62c01982f14
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_LieDown_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 34c562d6e41002747be04d22d8041d7e
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_LieDown_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3df487ee64284634c8f8619744e1175d
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Attack03_02.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4f74491612f1999488e3b94ec2e63aa6
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Pickup.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5b088766083c4014ba8c043203df2336
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Squat_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 63515114b73538441a9c6771d66cbab4
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Attack02.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 650a2b3818389f140a270a43ff4d1c94
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Move_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 822c8f7dcd4c0b949b4bd47728a2fc1d
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Squat_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 91848e0f7fdb840449f723ef5f488b9f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 91c4935b91b2a1b45a1eb1b47f4bc007
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Dead.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 936e055779b6da040827de73a3e37c8e
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Squat_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a718df1762156d34591940a656093297
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_LieDown_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: af689467d579cb44a945316c58167bc0
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Move_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c12f7a15026e0d748be39ac6f79085fc
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Jump.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c1fb8ca157511f24a8e41ebe69c3447b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Attack01.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c6c1a89057b40234ebdad144181ece39
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_Draw.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f6b6396a33227f84bbb1112196b59150
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Melee/Male@Melee_LieDown_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 42ecfbe2c9bf5e348aa7d6f3be8476ce, type: 2}
+    - {fileID: 11400000, guid: 3a533f39d69aa304b82546f6925e6b82, type: 2}

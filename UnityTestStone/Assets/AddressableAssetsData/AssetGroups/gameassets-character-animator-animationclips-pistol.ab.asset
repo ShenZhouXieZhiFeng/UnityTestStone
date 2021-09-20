@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: gameassets-character-animator-animationclips-pistol.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: gameassets-character-animator-animationclips-pistol.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fd16506fadec9e740bc749806d1c76ca
+  m_SerializeEntries:
+  - m_GUID: 0d11156d889a7b5469b8e909ca898c3b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Pickup.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: 0d11156d889a7b5469b8e909ca898c3b, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: 0d11156d889a7b5469b8e909ca898c3b, type: 3}
+  - m_GUID: 0d9f617d99b914a4095eb797a5b1876f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Move_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: 0d9f617d99b914a4095eb797a5b1876f, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: 0d9f617d99b914a4095eb797a5b1876f, type: 3}
+  - m_GUID: 24df3bd74e5298a48b1165652fff8b3f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Squat_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: 24df3bd74e5298a48b1165652fff8b3f, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: 24df3bd74e5298a48b1165652fff8b3f, type: 3}
+  - m_GUID: 2b39a35cf2db5e54aac17b9648f6d8f8
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: -927199367670048503, guid: 2b39a35cf2db5e54aac17b9648f6d8f8,
+      type: 3}
+    m_TargetAsset: {fileID: -927199367670048503, guid: 2b39a35cf2db5e54aac17b9648f6d8f8,
+      type: 3}
+  - m_GUID: 434d803878e345b49b78ac7d323d41fc
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Squat_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 45bd6d0ea45b11f4e9fee2c2c96db077
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Reload_Quick.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5023ac554ac51754dae41ce02126d6bd
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Attack.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: 5023ac554ac51754dae41ce02126d6bd, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: 5023ac554ac51754dae41ce02126d6bd, type: 3}
+  - m_GUID: 5a9fc793d4e187a4b80ea42cf336c2c6
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_LieDown_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 65224386f96739c458b453fdc11bd3ee
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Squat_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6d0b789a0be529c4e9b58b625123fa66
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Move_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6fbaf5c2fe8795041b3c30c68fb5754a
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Move_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8ab8269b1cc4a36499a9be7b9899191b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@R1895_Reload_Single.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a1c8afe49dbfc2044880b7535d95cbc7
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Dead.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: a1c8afe49dbfc2044880b7535d95cbc7, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: a1c8afe49dbfc2044880b7535d95cbc7, type: 3}
+  - m_GUID: a3054b55f20ed8045b5a45b90c9a88e2
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_LieDown_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a4dacf898a8a8a94a9acd4c30af6df68
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_LieDown_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: a4dacf898a8a8a94a9acd4c30af6df68, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: a4dacf898a8a8a94a9acd4c30af6df68, type: 3}
+  - m_GUID: a64d6d86e73e9004080539714f062d53
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Squat_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: a64d6d86e73e9004080539714f062d53, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: a64d6d86e73e9004080539714f062d53, type: 3}
+  - m_GUID: a7074887a6106a240921ca9b9dc0ca82
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_LieDown_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: a7074887a6106a240921ca9b9dc0ca82, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: a7074887a6106a240921ca9b9dc0ca82, type: 3}
+  - m_GUID: a9939a64a1f794245b8edb3ac73b6609
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Squat_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bfc2ed2c4efcd324191d2f5cc842af5f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Squat_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c61a1fe68affb974cbedfcc8dcc9f705
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Move_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ceac7744332c5e34cb8891b5b17b04ea
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Jump.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: ceac7744332c5e34cb8891b5b17b04ea, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: ceac7744332c5e34cb8891b5b17b04ea, type: 3}
+  - m_GUID: d23b0e01aa45ca942b5aacd32b743a5a
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_LieDown_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e326d96c9a5a6b149abf8c6faa16989f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Move_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: e326d96c9a5a6b149abf8c6faa16989f, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: e326d96c9a5a6b149abf8c6faa16989f, type: 3}
+  - m_GUID: f86b6f5297c903745835eb6e5c9a405b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Reload_Normal.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: -927199367670048503, guid: f86b6f5297c903745835eb6e5c9a405b,
+      type: 3}
+    m_TargetAsset: {fileID: -927199367670048503, guid: f86b6f5297c903745835eb6e5c9a405b,
+      type: 3}
+  - m_GUID: fcba7bf9b2b05b446a12270ac3a47b21
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Pistol/Male@Pistol_Hurt.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 100044, guid: fcba7bf9b2b05b446a12270ac3a47b21, type: 3}
+    m_TargetAsset: {fileID: 100044, guid: fcba7bf9b2b05b446a12270ac3a47b21, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 89e6fa503a5fc5141bcaa6778fb92a16, type: 2}
+    - {fileID: 11400000, guid: d608846cbe8a21e41b96642049652568, type: 2}

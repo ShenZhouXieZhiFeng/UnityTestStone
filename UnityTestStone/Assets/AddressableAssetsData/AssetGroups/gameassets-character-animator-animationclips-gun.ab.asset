@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: gameassets-character-animator-animationclips-gun.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: gameassets-character-animator-animationclips-gun.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9c88935fe2ccfa249bdfc3d3c9f055eb
+  m_SerializeEntries:
+  - m_GUID: 1ee692366b960a0408613882f48d5008
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_LieDown_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1f3344f73e4c12647807a5da4808620d
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Squat_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 23a0b5654a8bad340875121d8e82e101
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Attack.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 29ad4a229e5ff334c84a6d0f84f2c87c
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Run1.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4b8949b94a76c4c4788814b6d2999b04
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_LieDown_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4cc3cf0c291731642affdc9807ca0fd4
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@MP5K_Reload_Quick.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 508113d0f6219db4fb116bcf08866de8
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_LieDown_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 622ae0f285b206149bd73255dc111b5c
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Reload_Quick.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 65867c53e2e77cc4083739b68fb65f15
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_LieDown_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6604205627419a84fa6a278a21e27894
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Move_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7165fb99452772c4fae37a721c20c2d1
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Hurt.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7384b7acab5a5604499d0de86081181d
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@M249_Reload_Normal.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 774eaccac1653f3438e1efc524b4a2a8
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_LieDown_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8de1afa2538baa247b9e8761eea1e3be
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Move_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 94779c6f2ea72c3468dfc28aa192a214
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Jump.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 95cf41ca75a09aa48913779fe6a437f4
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Dead.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9732bac1aa4f68f4aa5c0248cdbfc38e
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Reload_Normal.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: afb409960a5d73f408facf0621cb8b4a
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Squat_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b119203fe137e774ca5e7ff4210ab9f3
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Move_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b68d4208ad6538d46948488878cb9ec8
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Move_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b7eb68fdd7f814d499591b50c49f7eeb
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Squat_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b80d5576c2c6a2d42a641b716ef00de9
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Pickup.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cd8be36520d3ece469e63c6f98b5a467
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Squat_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d085d723e34e6674c85a083732a2c78b
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Move_Collision.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e4b9c49cb9a298346a39110fb39df7c0
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Squat_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e85a34464a66405438f03a3c4b476656
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@MP5K_Reload_Normal.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e9a5e0c274cf7c24bb70058fe02ebaef
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Move_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f5615fc4052920c4ebce566fff98b1ca
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@M249_Reload_Quick.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f6b9e6a9261cfc840b0c082cb244e004
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Gun/Male@Gun_Squat_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4c12a7d098fabcd4eb2df2fa56e452be, type: 2}
+    - {fileID: 11400000, guid: f2d46e97c6c7def4590a4616319547a4, type: 2}

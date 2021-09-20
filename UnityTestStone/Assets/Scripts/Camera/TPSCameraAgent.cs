@@ -61,18 +61,14 @@ public class TPSCameraAgent : CameraAgent
         {
             rotateAgent();
         }
-
         mTpsCamera.ApplyRotation();
-
         ClearRoteteInputVector();
     }
 
     void rotateAgent()
     {
         float yaw = RotateInputVector.x;
-        Quaternion rotDelta = Quaternion.Euler(0, yaw, 0);
-        Quaternion taretRotation = rotDelta * transform.rotation;
-        transform.rotation = taretRotation;
+        player.MoveComp.Rotate(new Vector3(0, yaw, 0));
     }
 
     /// <summary>
@@ -111,16 +107,13 @@ public class TPSCameraAgent : CameraAgent
         {
             return;
         }
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            if (mTpsCamera.CameraMold == ETPSCameraMold.Adventure)
-            {
-                ChangeCameraMold(ETPSCameraMold.Freedom);
-            }
-            else
-            {
-                ChangeCameraMold(ETPSCameraMold.Adventure);
-            }
+            ChangeCameraMold(ETPSCameraMold.Freedom);
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            ChangeCameraMold(ETPSCameraMold.Adventure);
         }
     }
 

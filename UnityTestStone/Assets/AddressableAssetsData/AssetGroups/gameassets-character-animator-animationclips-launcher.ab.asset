@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: gameassets-character-animator-animationclips-launcher.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: gameassets-character-animator-animationclips-launcher.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 97421e470f08a8b419143976f1bb866d
+  m_SerializeEntries:
+  - m_GUID: 0df442b241820fd45a684efb7eb7fa6a
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Hurt.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 16f7f631a58a915498637130db06f2e2
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Move_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 22f52b7eb1e0db945991032ac9348475
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Attack.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3e0f13f067e7722438d822d1bcc57909
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 497162e81ae50394ca57e33003f538b1
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Squat_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4b552a65e421b2547a4064d7a88487bb
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Dead.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5113894e4e7a1264693650570ad204e2
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Jump.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5f9cf21bceb817942b999a56ad710a13
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Squat_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 929560cf02ac24741b2130c83b74c77a
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Squat_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 99f2d5adcd2e70f4693aac9627922126
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Squat_Left.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9e400cef15365c94685538682eb1e0bb
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Move_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a049a808175847c4ab67f60af46c07f2
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@MGL140_Reload_Single.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a2608e367c38901428e702b398d8964d
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Pickup.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a7bd7b70c713f4a45a4704360cbcabc4
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Reload.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b3e1b1f3e34ebd94d9c87adc3bd0fa2f
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Move_Right.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bad5b693c483621439cc55eb98e5a570
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Move_Back.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c6b82b916f3643a4a96158eca7966ea2
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Attack1.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d6846f95f0cdf9d48b02505ef5894262
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Squat_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: db0ac31919cf8a945b46d27652304248
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Move_Front.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e72be20dcd9336b4ab6b2fd18b9fda49
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Launcher/Male@Launcher_Squat_Run.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2c6478aec5735ec4e9bb52e3b7599432, type: 2}
+    - {fileID: 11400000, guid: 71ccd64a4ce371c4f89c90c01eff4522, type: 2}

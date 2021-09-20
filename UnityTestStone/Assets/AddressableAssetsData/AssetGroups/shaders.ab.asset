@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: shaders.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: shaders.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e0bc3a44481679d42a518f488eb2d744
+  m_SerializeEntries:
+  - m_GUID: 305aef0466e78904db1c46da172b942d
+    m_Address: Assets/GameAssets/shaders/Common/ShadowCaster.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 4800000, guid: 305aef0466e78904db1c46da172b942d, type: 3}
+    m_TargetAsset: {fileID: 4800000, guid: 305aef0466e78904db1c46da172b942d, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: caf9f90e22e3cdd4996d6aba09c9de57, type: 2}
+    - {fileID: 11400000, guid: 9f97890ce18367e40a6bb9dab67019d3, type: 2}

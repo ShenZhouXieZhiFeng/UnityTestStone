@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: gameassets-character-animator-animationclips-mount.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: gameassets-character-animator-animationclips-mount.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c9dfe4780ed0be44e8ef41857c0f0edd
+  m_SerializeEntries:
+  - m_GUID: ac8ddc234ef64a74584f1afe88bf6624
+    m_Address: Assets/GameAssets/Character/Animator/AnimationClips/Mount/Male@Mount_Idle.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 22e93b436370e19409f847ee0a89c3b5, type: 2}
+    - {fileID: 11400000, guid: 9308ff9985dc07846a4fe13a6ce44fe1, type: 2}
