@@ -59,7 +59,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d90e0b2a1819a5443ab70b329a6c6d0d, type: 2}
   - {fileID: 11400000, guid: a8c4b3908ad13984689c4fe5e4bb9338, type: 2}
   - {fileID: 11400000, guid: cd2309b85fb558d46b29c587fb1e9da8, type: 2}
-  - {fileID: 11400000, guid: 643a1a164b46551498b20e993c8b20f7, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -141,7 +140,7 @@ MonoBehaviour:
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: Library/com.unity.addressables/aa/Windows/StandaloneWindows;
+          m_Data: Library/com.unity.addressables/aa/Windows/StandaloneWindows
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean
@@ -169,7 +168,7 @@ MonoBehaviour:
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: Library/com.unity.addressables/aa/Windows/StandaloneWindows;
+          m_Data: Library/com.unity.addressables/aa/Windows/StandaloneWindows
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean

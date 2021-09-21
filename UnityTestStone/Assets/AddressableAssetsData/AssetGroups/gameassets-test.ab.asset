@@ -21,10 +21,14 @@ MonoBehaviour:
     m_Address: Assets/GameAssets/Test/Cube.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 606622655821449372, guid: 3a041e0982b4f4c4092fd02ac44c27bb,
-      type: 3}
-    m_TargetAsset: {fileID: 606622655821449372, guid: 3a041e0982b4f4c4092fd02ac44c27bb,
-      type: 3}
+  - m_GUID: 0db8b9af6e202c9408a3fbf6ec713004
+    m_Address: Assets/GameAssets/Test/Capsule.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb7f96ecc3acdc549bebc97bdfcc4965
+    m_Address: Assets/GameAssets/Test/Sphere.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: c4fee13de47a45349b14a8219a583269, type: 2}
   m_SchemaSet:
