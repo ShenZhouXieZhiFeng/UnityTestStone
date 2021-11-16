@@ -29,24 +29,24 @@ public class PlayableRole01 : PlayableBehaviour
     }
 
     // Called when the state of the playable is set to Play
-    public override void OnBehaviourPlay(Playable playable, FrameData info)
-    {
-        txtDialog.gameObject.SetActive(true);
-        txtDialog.text = dialogStr;
-    }
+    //public override void OnBehaviourPlay(Playable playable, FrameData info)
+    //{
+    //    txtDialog.gameObject.SetActive(true);
+    //    txtDialog.text = dialogStr;
+    //}
 
-    // Called when the state of the playable is set to Paused
-    public override void OnBehaviourPause(Playable playable, FrameData info)
-    {
-        if (txtDialog)
-        {
-            txtDialog.gameObject.SetActive(false);
-        }
-    }
+    //// Called when the state of the playable is set to Paused
+    //public override void OnBehaviourPause(Playable playable, FrameData info)
+    //{
+    //    if (txtDialog)
+    //    {
+    //        txtDialog.gameObject.SetActive(false);
+    //    }
+    //}
 
     // Called each frame while the state is set to Play
-    public override void PrepareFrame(Playable playable, FrameData info)
-    {
+    //public override void PrepareFrame(Playable playable, FrameData info)
+    //{
         
-    }
+    //}
 }
